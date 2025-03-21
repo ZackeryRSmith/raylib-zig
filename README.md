@@ -1,13 +1,13 @@
-![logo](https://github.com/Not-Nik/raylib-zig/raw/devel/logo/logo.png)
+<img src="https://github.com/Not-Nik/raylib-zig/raw/devel/logo/logo.png" align="left"></img>
 
-# raylib-zig
-
-Manually tweaked, auto-generated [raylib](https://github.com/raysan5/raylib) bindings for zig.
-
-Bindings tested on raylib version 5.6-dev and Zig 0.14.0
-
-Thanks to all the [contributors](https://github.com/Not-Nik/raylib-zig/graphs/contributors) for their help with this
-binding.
+<br /><br />
+<div align="center">
+  <h3>raylib-zig</h3>
+  Manually tweaked, auto-generated <a href="https://github.com/raysan5/raylib">raylib</a> bindings for zig.
+  <br /><br />
+  Tested on Raylib version 5.6-dev and Zig 0.14.0
+</div>
+<br /><br />
 
 ## Example
 
