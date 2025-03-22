@@ -296,7 +296,7 @@ pub fn build(b: *std.Build) !void {
         .{
             .name = "window_letterbox",
             .path = "examples/core/window_letterbox.zig",
-            .desc = "",
+            .desc = "Render to a scaled texture",
         },
         .{
             .name = "scissor_test",
