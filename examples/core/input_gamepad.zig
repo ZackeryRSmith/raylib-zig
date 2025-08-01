@@ -21,7 +21,7 @@ const right_trigger_deadzone = -0.9;
 pub fn main() !void {
     rl.setConfigFlags(.{ .msaa_4x_hint = true });
 
-    rl.initWindow(screen_width, screen_height, "hi");
+    rl.initWindow(screen_width, screen_height, "raylib-zig [core] example - input gamepad");
     defer rl.closeWindow();
 
     const tex_ps3_pad = try rl.loadTexture("resources/ps3.png");
@@ -31,7 +31,7 @@ pub fn main() !void {
 
     rl.setTargetFPS(60);
 
-    var gamepad: i32 = 0;
+    var gamepad: i32 = 0; // which gamepad to display
 
     while (!rl.windowShouldClose()) {
         // Update
