@@ -118,6 +118,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Simple keyboard input",
         },
         .{
+            .name = "input_gamepad",
+            .path = "examples/core/input_gamepad.zig",
+            .desc = "Gamepad input",
+        },
+        .{
             .name = "input_mouse",
             .path = "examples/core/input_mouse.zig",
             .desc = "Simple mouse input",
