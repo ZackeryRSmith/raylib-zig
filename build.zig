@@ -156,6 +156,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Simple first person demo",
         },
         .{
+            .name = "3d_camera_fps",
+            .path = "examples/core/3d_camera_fps.zig",
+            .desc = "Shows complex 3d Quake-like fps movement"
+        },
+        .{
             .name = "3d_camera_free",
             .path = "examples/core/3d_camera_free.zig",
             .desc = "Shows basic 3d camera initialization",
